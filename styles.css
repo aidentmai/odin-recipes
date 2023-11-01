@@ -1,8 +1,16 @@
 * {
-    background-color: bisque;
+    box-sizing: border-box;
 }
 
-h1 {
+.header {
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid black;
+    background-color: bisque;
+    margin: -10px;
+}
+
+.main-content {
+    padding: 10px;
+    display: flex;
 }
